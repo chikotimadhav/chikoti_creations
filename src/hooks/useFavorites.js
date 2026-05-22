@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const FAVORITES_KEY = 'sound-favorites';
+const FAVORITES_KEY = 'soundhub-favorites';
 
 function useFavorites() {
   const [favorites, setFavorites] = useState([]);

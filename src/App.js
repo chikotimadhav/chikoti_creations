@@ -1,10 +1,10 @@
 import React from 'react';
-import Sound from './components/Sound';
+import SoundHub from './components/SoundHub';
 
 function App() {
   return (
     <>
-      <Sound />
+      <SoundHub />
       <footer className="main-footer">
         <div className="designer-credit">
             <span>designed by chikoti_creations</span>

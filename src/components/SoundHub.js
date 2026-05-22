@@ -6,12 +6,12 @@ import useAudioPlayer from '../hooks/useAudioPlayer';
 import useFavorites from '../hooks/useFavorites';
 import useDownloads from '../hooks/useDownloads';
 import playlists from '../data/playlists';
-import styles from './Sound.module.css';
+import styles from './SoundHub.module.css';
 
 const allSongs = playlists.flatMap((pl) => pl.songs);
 const songMap = Object.fromEntries(allSongs.map((s) => [s.id, s]));
 
-function Sound() {
+function SoundHub() {
   const [view, setView] = useState('home'); // 'home' | playlist id
 
   const {
@@ -98,4 +98,4 @@ function Sound() {
   );
 }
 
-export default Sound;
+export default SoundHub;
