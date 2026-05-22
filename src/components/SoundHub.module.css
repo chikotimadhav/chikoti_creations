@@ -1,0 +1,7 @@
+.root {
+  min-height: 100vh;
+  background: #080c14;
+  font-family: 'Exo 2', sans-serif;
+  color: #e2e8f0;
+  overflow-x: hidden;
+}

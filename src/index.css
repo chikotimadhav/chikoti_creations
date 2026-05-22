@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #080c14;
+  color: #e2e8f0;
+  font-family: 'Exo 2', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #38bdf8;
+  border-radius: 3px;
+}
+
+/* Footer Styles */
+.main-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #0f172a;
+  border-top: 1px solid #1e293b;
+  margin-top: 2rem;
+}
+
+.main-footer p {
+  color: #f97316;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.designer-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.instagram-icon-link {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #e1306c;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.instagram-icon-link:hover {
+  color: #f97316;
+  transform: translateY(-1px);
+}

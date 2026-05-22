@@ -1,0 +1,152 @@
+.card {
+  background: linear-gradient(145deg, #0f172a, #020617);
+  border: 1px solid rgba(56, 189, 248, 0.12);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.08);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.card.active {
+  border-color: rgba(56, 189, 248, 0.6);
+  box-shadow: 0 0 32px rgba(56, 189, 248, 0.3);
+}
+
+.thumb {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.artist {
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.btnPlay {
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  border: none;
+  border-radius: 8px;
+  color: #020617;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btnPlay:hover {
+  opacity: 0.85;
+  transform: scale(1.04);
+}
+
+.btnPause {
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 8px;
+  color: #38bdf8;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnPause:hover {
+  background: rgba(56, 189, 248, 0.22);
+}
+
+.volume {
+  width: 100%;
+  accent-color: #38bdf8;
+  cursor: pointer;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.favBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, background 0.2s;
+  z-index: 10;
+}
+
+.favBtn:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.favBtn.isFav {
+  /* optional specific style for active state */
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titleInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadBtn {
+  background: transparent;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: background 0.2s;
+}
+
+.downloadBtn:hover {
+  background: rgba(56, 189, 248, 0.15);
+}
