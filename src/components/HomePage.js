@@ -12,7 +12,7 @@ function HomePage({ playlists, favSongs, downSongs, currentSongId, onPlay, onPau
     <div className={styles.home}>
       <div className={styles.header}>
         <div>
-          <h1 className={styles.logo}>SoundHub</h1>
+          <h1 className={styles.logo}>Sound</h1>
           <p className={styles.tagline}>Your Music Universe</p>
         </div>
         <div className={styles.actions}>

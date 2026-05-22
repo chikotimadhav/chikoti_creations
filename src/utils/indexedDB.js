@@ -1,4 +1,4 @@
-const DB_NAME = 'soundhub-offline-db';
+const DB_NAME = 'sound-offline-db';
 const DB_VERSION = 1;
 const STORE_NAME = 'audio-blobs';
 

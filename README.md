@@ -1,4 +1,4 @@
-# 🎵 SoundHub — React Music App
+# 🎵 Sound — React Music App
 
 A fully functional React music player with 6 playlists and 36 songs.
 
@@ -7,7 +7,7 @@ A fully functional React music player with 6 playlists and 36 songs.
 ## 📁 Project Structure
 
 ```
-soundhub/
+sound/
 ├── public/
 │   └── index.html
 ├── src/
@@ -19,8 +19,8 @@ soundhub/
 │   ├── hooks/
 │   │   └── useAudioPlayer.js ← Custom hook (audio logic)
 │   └── components/
-│       ├── SoundHub.js         ← Main orchestrator
-│       ├── SoundHub.module.css
+│       ├── Sound.js         ← Main orchestrator
+│       ├── Sound.module.css
 │       ├── HomePage.js         ← Playlist grid
 │       ├── HomePage.module.css
 │       ├── PlaylistPage.js     ← Song list view
