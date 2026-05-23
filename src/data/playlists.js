@@ -96,6 +96,13 @@ const playlists = [
         "artist": "Santhosh Narayanan",
         "cover": "https://image2url.com/r2/default/images/1770959192024-519a5963-fea6-4131-8d2d-62949c59a99a.jpg",
         "src": "https://image2url.com/r2/default/audio/1771002997379-c00837dd-91bc-41af-8d3e-260567c20ef7.mp3"
+      },
+      {
+        "id": "audio_g",
+        "title": "Aaya Sher",
+        "artist": "Addula Jangireddy, Akunoori Devaihah, Anirudh Ravichander",
+        "cover": "https://www.image2url.com/r2/default/images/1779557237841-02c6909b-8a3e-4092-a371-0bcac420d06b.jpg",
+        "src": "https://www.image2url.com/r2/default/audio/1779557314537-bdbe7564-472d-4103-9d81-6e10d3020215.mp3"
       }
     ]
   },
@@ -246,6 +253,13 @@ const playlists = [
         "artist": "Kondala Swamy",
         "cover": "https://image2url.com/r2/default/images/1771435074580-b6d08d1e-8def-4739-a099-26254cb92a5d.jpg",
         "src": "https://image2url.com/r2/default/audio/1771432785781-7193b328-a04d-4329-9f93-ac924ec6226c.mp3"
+      },
+      {
+        "id": "audio_g3",
+        "title": "Namo Re",
+        "artist": "Aishwarya Daruri, Sindhuja Srinivasan",
+        "cover": "https://www.image2url.com/r2/default/images/1779556508959-c211a4cb-ec34-4c50-a7a3-b404688ab4b4.jpg",
+        "src": "https://www.image2url.com/r2/default/audio/1779556311552-eee36e1d-7657-48fb-8126-0d8407df6888.mp3"
       }
     ]
   },
